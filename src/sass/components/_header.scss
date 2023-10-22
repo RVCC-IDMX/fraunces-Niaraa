@@ -10,8 +10,9 @@
   padding-top: 2rem;
 
   &__title {
+    font-variation-settings: "opsz" 83, "SOFT" 55.1;
+    font-weight: 363;
     color: var.$primary-very-dark;
-    font-weight: type.$display-weight;
     font-size: type.$display-title-size;
     letter-spacing: type.$display-spacing;
     text-align: center;
@@ -27,10 +28,13 @@
     font-size: type.$body-font-size;
     font-weight: type.$body-font-weight;
     padding: 0rem 5vw;
+    font-variation-settings: "opsz" 132, "SOFT" 99.6, "WONK" 0.087;
+    font-weight: 256;
 
     &--first {
+      font-variation-settings: "WONK" 0, "opsz" 123, "SOFT" 87.5;
+      font-weight: 821;
       font-style: italic;
-      font-weight: type.$body-italic-weight;
       letter-spacing: 0.15em;
     }
   }
